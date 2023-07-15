@@ -8,19 +8,79 @@
 }
 body
 {
-    background-color: black;  
+    background-color: black; 
+    
+
 }
+
 .container
 {
     
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%; 
     
 }
+.colors ,.typo
+{
+    
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
+}
+
+.typo{
+
+    color: aliceblue;
+}
+
+
+.colorSelect
+{
+    height:30px;
+    width: 30px;
+    border-radius:100% ;
+    border: none;
+    margin-left: 4%;
+   
+   
+}
+h6
+{
+    color: aliceblue;
+}
+#color-RED
+{
+    background-color: red;
+    
+    
+    
+
+    
+     
+}
+#color-YELLOW
+{
+    background-color: yellow;
+}
+#color-WHITE
+{
+    background-color: aliceblue;
+}
+#color-GREEN
+{
+    background-color: greenyellow;
+}
+#color-PINK
+{
+    background-color: rgba(251, 5, 161, 0.792);
+    border: 5px solid orange;
+}
 
 .clock
 {
